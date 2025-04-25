@@ -1,0 +1,270 @@
+.clearfix{
+    clear:both;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    color:black;
+    margin:10px;
+    
+ }
+ p{
+    
+    color: #686868;
+    line-height: 1.6;
+    margin:10px;
+   
+
+ }
+.header{
+    background-color: #FFFFFF;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    display: block;
+    height: 60px;
+    
+}
+#startLogo{
+    position: absolute;
+   top:25%;
+   left:10px;
+    width:auto;
+    height: 40px;
+    
+    
+}
+
+
+.welcometext{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Alegreya";
+    padding-top: 22%;
+    
+
+}
+#welcome{
+    font-size: 3vw;
+}
+#Name{
+    font-size: 4vw;
+    font-weight: 400;
+}
+#description{
+    font-size: 2vw;
+}
+#welcome,#Name,#description{
+    padding:0;
+    margin:0;
+    font-weight: normal;
+    
+    
+}
+.welcome{
+    
+    
+    background-image: url("./Bakery images/images/drew-coffman-1872.jpg");
+    background-size: cover;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 10vw;
+
+}
+.selectbuttons{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 30%;
+    
+     
+ }
+ #yellowbutton,#whitebutton{
+    
+    border-radius: 5px;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    padding-right:3vw;
+    padding-left:3vw;
+ }
+ #yellowbutton{
+    background-color: #8e7754;
+    border: transparent 1px solid;
+ }
+ #whitebutton{
+    background-color: transparent;
+    border: white 1px solid;
+    color: #FFFFFF;
+ }
+ #yellowbutton:hover,#whitebutton:hover{
+    background-color: #FFFFFF;
+    border: transparent 1px solid;
+    color:black;
+ }
+ #midimage{
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-shrink: 0;
+
+ }
+ .whoWeAre{
+    display: flex;
+    margin:5%;
+    padding-bottom: 0%;
+    flex-wrap: wrap;
+    
+
+ }
+ .whoWeAreText img{
+    width:50px;
+    margin-bottom:5px ;
+    border:1px gray solid;
+    border-radius: 100%;
+    margin-right: 5%;
+    
+ }
+ .whoWeAreText{
+    flex: 1;
+   
+ }
+ 
+ .List{
+    display: flex;
+    left:10%;
+    padding: 0%;
+ }
+ .location{
+    flex-wrap: wrap;
+    display: flex;
+    padding-bottom: 0%;
+    
+    
+ }
+
+ .location img{
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-shrink: 0;
+    right:50%;
+    
+ }
+ .textLocation{
+    padding-right: 5%;
+    flex: 1;
+    line-height: 1.6;
+    padding-left: 2%;
+
+
+ }
+ .ourBaking{
+    text-align: center;
+
+ }
+ 
+ .BakingImage{
+    
+    flex-wrap: wrap;
+    display:flex;
+    padding:10px;
+
+ }
+ .BakingImage div{
+    flex:1;
+    padding: 10px;
+ }
+ .BakingImage img{
+    width: 100%;
+ }
+ .grey{
+    padding-right: 5%;
+    background-color: #F8F8F8;
+    line-height: 1.6;
+ }
+ .white{
+    padding-left: 5%;
+    line-height: 1.6;
+ }
+ .contactInfo img{
+    width:40px;
+    background-color: #8E7754;
+    border-radius: 100%;
+    margin:10px;
+    margin-left: 2%;
+ }
+ .contactInfo{
+    padding-bottom: 5%;
+ }
+ .info{
+    
+    flex-wrap: wrap;
+    display:flex;
+    padding:10px;
+    background-color: #403D38;
+
+
+ }
+ .info h3{
+    color:#FFFFFF;
+ }
+ .info div{
+    
+    padding: 10px;
+    margin: 10px;
+    flex:1;
+
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    padding-bottom: 0%;
+    flex-wrap: wrap;
+    
+
+ }
+ .contact img{
+    width:25px;
+    height: auto;
+    margin-bottom:5px ;
+    
+    
+ }
+ .contactstuff{
+    display: flex;
+    align-items: right;
+   
+ }
+ .aboutus{
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    padding-bottom: 0%;
+    flex-wrap: wrap;
+ }
+ .footer{
+    padding-top:2%;
+    background-color: #353330;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ }
+ .icons img{
+    width:40px;
+    background-color: #686868;
+    border-radius: 100%;
+    margin:10px;
+ }
+ .icons{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+  
+ }
+ 
